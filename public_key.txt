@@ -1,0 +1,21 @@
+LEVELING PROVENANCE PUBLIC KEY
+
+Creator: Philips Muliawan
+
+Alias: Philips Kie
+
+Brand / Channel: Leveling
+
+Tagline: from 0 naik level tiap hari
+
+Key purpose: Digital asset provenance manifest signing
+
+Key algorithm: Ed25519
+
+Public key:
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBTgGyHxvgoIusSCpAKrXT0pbJHYnI5NDptHRQfgSNpg Philips Muliawan aka Philips Kie | Leveling
+
+SHA-256 fingerprint:
+
+SHA256:54KuPfJGwLoSa7GkM96nwO3VtoD+kAOG0uoZmh+8fZQ
