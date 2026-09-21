@@ -1,10 +1,10 @@
 {
-  "asset_count": 2,
+  "asset_count": 3,
   "date": "2026-09-21",
   "manifest_filename": "manifest-2026-09-21.json",
-  "manifest_sha256": "bdafafb2d81e2d0522757ac57daaf5e6d41a29d6d16d5fd0a9c8963b33d4c60d",
+  "manifest_sha256": "027f6dc29467e3a31d319f96942f348ee7a7438589fa73805714ab0fb6ce6a94",
   "public_key_fingerprint": "SHA256:54KuPfJGwLoSa7GkM96nwO3VtoD+kAOG0uoZmh+8fZQ",
   "schema": "leveling-public-anchor-v1",
   "signature_filename": "manifest-2026-09-21.json.sig",
-  "signature_sha256": "191fb0a3bb5dccd4fd874f89a547999ff6672d08784c6badbbf80c829cd35784"
+  "signature_sha256": "e1364e22c1dcb0fbd6313a47f7f29bc085907b119f90c628b532fc48c501274d"
 }
