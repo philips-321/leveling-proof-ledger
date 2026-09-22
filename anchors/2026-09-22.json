@@ -1,0 +1,10 @@
+{
+  "asset_count": 4,
+  "date": "2026-09-22",
+  "manifest_filename": "manifest-2026-09-22.json",
+  "manifest_sha256": "62d09469321bedacc579b050cdede2e1b674fe288064d9e836631eab070498cc",
+  "public_key_fingerprint": "SHA256:54KuPfJGwLoSa7GkM96nwO3VtoD+kAOG0uoZmh+8fZQ",
+  "schema": "leveling-public-anchor-v1",
+  "signature_filename": "manifest-2026-09-22.json.sig",
+  "signature_sha256": "72796d7504954295fc45c7ce5c72ee0a67374ea499c3d845df80c2e43205ddd7"
+}
