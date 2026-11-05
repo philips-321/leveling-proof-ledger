@@ -39,3 +39,15 @@ Aturan ini berlaku untuk setiap agen. Pertahankan aturan khusus proyek di atas. 
 - Satu sumber/window/domain diambil sekali dan dibagikan ke semua laporan yang membutuhkannya. Simpan raw JSON yang diperlukan beserta generated_at, rentang, cap/sampling, dan identitas sumber; shard/kompres jika besar. Jangan membuat duplikat dataset di setiap repo tanpa kebutuhan.
 - Commit hasil dan snapshot penting segera; jangan menahan satu-satunya salinan di artifact yang akan kedaluwarsa. Bedakan cache ringkas dari raw evidence; jangan mengaku bisa membangun ulang raw detail yang sebelumnya tidak pernah disimpan.
 <!-- END SOURCE SNAPSHOT REUSE POLICY v1 -->
+
+<!-- BEGIN OWNER ACTIONS VISIBILITY POLICY v2 -->
+## Owner directive: GitHub Actions by repository visibility (2026-11-05)
+
+This is the latest owner instruction. It overrides conflicting older shared Actions budget, reservation, notification, and pause rules **for public repositories only**.
+
+- PUBLIC repositories: use standard GitHub-hosted Actions freely, as often as needed for CI/CD, tests, collectors, validation, monitoring, deployment, and refreshes. Do not reduce frequency, disable or migrate a working workflow solely to save included Actions minutes. No private-budget snapshot, master-ledger reservation, or advance quota notice is required for ordinary public-repo Actions.
+- PRIVATE repositories: retain the existing shared Actions budget policy, cost monitoring, reservations, and safeguards. Do not interpret this public-repo exception as permission to spend private Actions minutes without checks.
+- Verify actual repository visibility before applying either rule. Downstream private workflows, larger/paid runners, Cloudflare resources, and other billable services remain separate; do not enable paid overage without owner authorization.
+- Preserve functional workflows. Validate replacements before disabling existing workflows, except when the owner explicitly requests otherwise. Prevent destructive data updates, concurrency conflicts, and runaway trigger loops.
+- Reliability and comprehensive automation take priority over GitHub Actions minute conservation in PUBLIC repositories.
+<!-- END OWNER ACTIONS VISIBILITY POLICY v2 -->
